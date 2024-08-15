@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-light, .btn-outline-light {
+    border-radius: 0;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+.mt-4 i {
+    font-size: 1.5rem;
+}
+
+.vh-100 {
+    min-height: 100vh;
+}
