@@ -1,22 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
-    font-family: "Young Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-  margin: 0;
-  padding: 0;
-  background-color: #262020 ;
-
-  
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #262020;
 }
-
 
 h1 {
     font-size: 3rem;
     margin-bottom: 20px;
     color: #F5F5F7;
-
 }
 
 p {
@@ -41,4 +37,23 @@ a {
 
 .vh-100 {
     min-height: 100vh;
+}
+
+/* New CSS for the Now link */
+.now-link {
+    position: absolute;
+    top: 10px; /* Adjust for your preferred distance from top */
+    right: 10px; /* Adjust for your preferred distance from right */
+}
+
+.now-link a {
+    color: #F5F5F7; /* Use the same white color as other text */
+    text-decoration: none;
+    font-size: 24px; /* Adjust the size as needed */
+    font-weight: 100;
+
+}
+
+.now-link a:hover {
+    color: chocolate;
 }
