@@ -43,17 +43,19 @@ a {
 .now-link {
     position: absolute;
     top: 10px; /* Adjust for your preferred distance from top */
-    right: 10px; /* Adjust for your preferred distance from right */
+    right: 10px; 
+    font-weight: bold;
 }
 
 .now-link a {
     color: #F5F5F7; /* Use the same white color as other text */
     text-decoration: none;
     font-size: 24px; /* Adjust the size as needed */
-    font-weight: 100;
+    
 
 }
 
 .now-link a:hover {
-    color: chocolate;
+    color: #007bff;
+    transition: 0.5s;
 }
